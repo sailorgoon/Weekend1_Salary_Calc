@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weekend salary calculator</title>
+</head>
+<body>
+    <div id="salaryCalcHeaderDiv">
+        <h1>Salary Calculator</h1>
+    </div> <!-- end salaryCalcHeaderDiv -->
+    <div id="everythingButHeaderDiv">
+        <h3>Add Employee</h3>
+        <form id="form">
+        <div id="inputsDiv">
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="lastName" placeholder="Last Name">
+            <input type="number" id="id" placeholder="ID">
+            <input type="text" id="title" placeholder="Title">
+            <input type="number" id="annualSalary" placeholder="Annual Salary">
+            <div id="buttonDiv">
+                <button id="addEmployeeButton">Submit</button>
+        </form>
+            </div> <!-- end Buttondiv -->
+        </div> <!-- end inputsDiv -->               
+        <div id=tableDiv>
+            <h3>Employees</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID</th>
+                        <th>title</th>
+                        <th>Annual Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeList">
+                    <!-- info goes here -->
+                </tbody>
+            </table>
+        </div> <!-- end tableDiv -->
+        <div id="totalDiv">
+            <h3>Total Monthly:</h3>
+        </div><!-- end totalDiv -->
+    </div> <!-- end EverythingButHeaderDiv -->
+</body>
+</html>

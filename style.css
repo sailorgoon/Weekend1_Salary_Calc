@@ -1,0 +1,89 @@
+/* BODY STUFF */
+
+body {
+    background-color: rgb(201, 252, 184);
+    font-family: 'Gill Sans', Verdana, Arial;
+    font-size: 20px;
+    color: rgb(0, 74, 17);
+}
+
+#everythingButHeaderDiv {
+    margin: auto;
+    width: 95%;
+}
+#totalDiv{
+    float:right;
+}
+/* HEADER STUFF */
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+h3{
+    font-weight: 400;
+}
+
+#salaryCalcHeaderDiv {
+     background-color: rgb(75, 150, 75);
+     height: 120px;
+     width: 103%;
+     margin-top: -30px;
+     margin-left: -10px;
+ }
+
+
+ /* TABLE STUFF */
+
+ table{
+    width: 100%;
+    border: 1px solid rgb(0, 185, 0);
+    border-collapse: collapse;
+} 
+
+th, tr, td {
+    padding: 10px;
+    border: 1px solid rgb(0, 185, 0);
+}
+
+th {
+    text-align: left;
+    font-weight: 400;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(183, 245, 167)
+}
+
+thead {
+    background-color:rgb(162, 235, 142);
+}
+
+/* BUTTON STUFF */
+
+button {
+    padding: 5px 30px;
+    background-color: rgb(170, 219, 166);
+    margin-top: 20px;
+    margin-right: 6.5%;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 1px solid rgb(0, 185, 0);
+    float: right;
+}
+    
+/* INPUT STUFF */
+
+input {
+    width: 18%;
+    font-size: 20px;
+    border: 1px solid rgb(0, 185, 0);;
+}
+
+::placeholder {
+    color: rgb(188, 211, 174);
+}
+
