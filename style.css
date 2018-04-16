@@ -55,7 +55,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(183, 245, 167)
+    background-color: rgb(183, 245, 167);
 }
 
 thead {
@@ -80,10 +80,9 @@ button {
 input {
     width: 18%;
     font-size: 20px;
-    border: 1px solid rgb(0, 185, 0);;
+    border: 1px solid rgb(0, 185, 0);
 }
 
 ::placeholder {
     color: rgb(188, 211, 174);
 }
-
